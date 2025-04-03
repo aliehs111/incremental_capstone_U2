@@ -1,0 +1,13 @@
+
+Statistical Observations
+
+1. The categorical data is not suitable for statistical analysis, in this dataframe, that is Seasons, Holiday and Functioning Day.
+2. In order to use this data in statistical analysis, it cold be changed to boolean values in new columns (encoded) using pd.get_dummies function.
+3. There is also manual mapping where the key value pairs are defined in a dictionary. i.e. season_mapping = {'Winter': 1, 'Spring': 2, 'Summer': 3, 'Fall': 4}
+   Then create a new column df['Season_encoded'] = df['Seasons'].map.  Now each season is a number in a new column.
+4. Also sklearn has the LabelEncoder() function to work statistically with categorical data.
+5. In the steps assigned above, the visibility was normalized so that the highest value is 1 and the lowest is 0.
+6. Temperature was multiplied by 10 as the assignment required.
+7. The column "hour" I originally thought was hours the bikes were rented, but then realized since it was 24 numbers, it was actually describing the hour of the day that the bike was rented.
+8. So it was not really quantitative and could be considered and used as categorical data.  I considered changing the format but did not.
+
