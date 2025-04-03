@@ -1,0 +1,11 @@
+
+
+---------Data Observations-------------
+
+1. No missing values were found.  
+  - Had they been found and there were not too many, those rows could have been dropped from the dataframe
+  - Or they could have been replaced with mean values from that column or mean values of from rows with other similarities.
+2. No duplicates were found.  Had they been found they could have been dropped unless it was confirmed that they were just coincidentally identical.
+3. After saving the numeric data to lower bytes per value and changing the categorical data to datatype category, the memory usage went from 958 to 351 KB.
+4. Using df.shape(), we see that there are 8760 rows and 14 columns.
+5. Of 14 columns, after cleaning, one column is datetime, there are 10 columns with numeric data and 3 columns with categorical data.

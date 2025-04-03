@@ -1,0 +1,20 @@
+
+Data Visualization Report:
+
+1. Average Rentals By Season -
+ - The bar plot shows the average rented bike counts for each season
+ - This helps understand which seasons have the highest and lowest bike rentals
+
+2. Hourly Rentals per time of day
+ - Initially I thought this data was how many hours the bike was rented.  But then I noticed that it was numbers 0-24 and realized it represents the actual hour of the day for the rental.
+ - The line plot displays the trend of bike rentals across the hours of the day.
+ - It shows the peak hours when rentals are the highest.  As would be expected, the low activity periods are the early morning or later at night.
+
+3. Correlation Heatmap - 
+ - This visualizes the correlation among numeric data
+ - It can help identify how the amount of bike rentals are affected by all the other factors and how they all work together.
+
+4. Box Plots for outlier direction
+ - The box plots help to identify where the outliers are for temperature as that relates to bike rentals
+ - The outliers might suggest that there were special events or holidays where someone were to rent a bike even though the temperature wasn't to their liking for bike riding.  It could also mean that there were some data entry mistakes by the staff.
+
